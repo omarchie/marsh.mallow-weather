@@ -1,0 +1,146 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 100px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+    color: blue;
+}
+
+h1 h2,
+h3 {
+    color: #350c63;
+}
+.marshmallow-sub-text {
+    font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        padding-bottom: 100px;
+}
+.body-bkgd {
+    background-color: #ffffff;
+}
+.current-location{
+    
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    font-size:25px;
+    
+}
+.footer {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+}
+.card-body {
+  
+}
+.sub-info{
+        max-width: 600px;
+        background-color: #fcdfcf;
+        padding: 10px 50px 20px;;
+        margin: 25px auto;
+        border-radius: 20px;
+        box-shadow: 1px 1px 25px 1px rgba(232, 202, 168, 0.396);
+        border: 0.5px solid rgba(124, 58, 7, 0.371);
+}
+.sub-info:hover{
+    background-color: #fef0d9;
+}
+
+.form-search {
+    font-size: 18px;
+    background-color: #f5d95a;
+}
+
+.weekday-font {
+    font-size: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+}
+.weather-card {
+    background-color: #dce9fc;
+    padding: 10px;
+    margin: 25px auto 25px auto;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px rgba(126, 173, 196, 0.246);
+    border: 1px solid rgba(45, 224, 240, 0.769);
+}
+.main-title{
+    font-family: 'Gasoek One', sans-serif;
+    font-kerning:none;
+    font-display: block;
+    font-size: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #ff5d80;
+    
+} 
+.main-card {
+background-color: #f7edf0;
+
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px 3px rgba(197, 157, 132, 0.981);
+    border: 1px solid rgba(255, 117, 183, 0.876);
+    outline: #ffffff solid 16px;
+}
+
+.list-date-condition {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    list-style-type: none;
+}
+.today-weather {
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3;
+    font-kerning:calc(5);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wind-percip {
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 2;
+}
+.current-temp-head {
+    font-size: 100px;
+    color: #312066;
+    padding: 20px;
+    float: center;
+    line-height: 1;
+}
+.weekday-weather {
+            background-color:#dee7b1;
+        padding: 15px;
+        margin: 20px auto;
+        border-radius: 20px;
+        border: 1px solid rgba(34, 168, 157, 0.371);
+}
+.weekday-weather:hover{
+    background-color: #e8e9bc;
+}
+.clouds {
+text-transform: capitalize;
+
+}
