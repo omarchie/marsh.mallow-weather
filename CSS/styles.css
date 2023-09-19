@@ -43,7 +43,7 @@ h3 {
     font-size:35px;
     margin: auto;
     display: block;
-    font-weight: 500;
+    font-weight: 600;
     list-style-type: none;
     
 }
@@ -153,19 +153,19 @@ h3 {
     font-size: 120px;
     padding-top: 50px;
     font-family: 'Lilita One', cursive;
-    color: #bb0a60;
+    color: #ca075f;
     margin: auto;
     display: block;
 }
 .weekday-weather {
-        background-color:#dee7b1;
+        background-color:#fff0bd;
         padding: 15px;
         margin: 20px auto;
         border-radius: 20px;
         border: 1px solid rgba(34, 168, 157, 0.371);
 }
 .weekday-weather:hover{
-    background-color: #e8e9bc;
+    background-color: #f9ffbc;
 }
 .clouds {
 text-transform: capitalize;
