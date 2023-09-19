@@ -16,10 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Paytone+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
 
   <body>
@@ -59,32 +71,46 @@
                  
         <div class="container">
           <div class="sub-info">
-               <h5 class="today-weather">Today's Weather</h5> 
-               <h1 class="current-temp-head" id ="thecurrent-temp">🌤12 | C</h1>
-               <h2 class="current-location" id="feels-like">Feels Like: ----</h2>
-                    <h3 class="current-location" id="current-location">
-          Los Angeles, California
-              </h3> 
-               <h3 class="current-location" id="country">
-          US
-              </h3> 
+               <div class="row">
+                <div class="col-4">
+<img
+            src="image/sun-icon.png"
+            id="weather-icon"
+            class = "w-icon"
+            />  
+              </div>
+<div class="col-5">
+                <h1 class="current-temp-head" id ="thecurrent-temp">12ºC</h1> 
+</div>  
+</div>
               <ul class="list-date-condition">
-                  <li id="currentdate">Current Date</li>
-                  <li class="clouds" id = "cloud-detail">
-                Partly Sunny
-                  </li>
-                  </ul>
-                  <ul class="wind-percip"> 
-                         <li id="humidity">
+                <li id="currentdate">Current Date</li>
+              </ul>
+              <h2 class="current-location"id ="current-location"> Los Angeles, CA</h2>
+                <div class="row" id="sub-info-two">
+                <div class="col-6">
+                        <ul class="wind-percip"> 
+                           <li id="humidity">
                           Humidity: 50%
                         </li>
                         <li id="wind">
                             Wind: ----
                           </li>
                       </ul> 
-                </div>
-                </div>
-          <div class="container">
+                    </div>
+                    <div class="col-6">
+                        <ul class="feels-like-text"> 
+                           <li id="feels-like">
+                          Feels Like: ----
+                        </li>
+                        <li id="country">
+                            US
+                          </li>
+                      </ul>  
+                    </div>
+                  </div>
+                  </div>
+             <div class="container">
             <div class="weekday-weather">
               <div class="row align-items-start">
                 <div class="row">
@@ -161,6 +187,9 @@
         </div>
         </div>
       </div>
+                </div>
+                </div>
+          
         </div> 
                
     </div>

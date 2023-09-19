@@ -9,12 +9,10 @@ function displayTemperature(response){
 console.log(response)
     let theCurrentTemp = Math.round(response.data.main.temp);
     let tempDisplay = document.getElementById("thecurrent-temp");
-    tempDisplay.innerText = `${theCurrentTemp}º|C`;
+    tempDisplay.innerText = `${theCurrentTemp}ºC`;
     let description = document.getElementById("cloud-detail");
-    let weatherDescrip = response.data.weather[0].description;
-    description.innerText =`${weatherDescrip}`;
-    let humidity = document.getElementById("humidity");
-    humidity.innerText = "Humidity: " + response.data.main.humidity +"%";
+    let humidity = document.querySelector(".wind-percip li#humidity");
+    humidity.innerText = "Humidity : " + response.data.main.humidity +"%";
     let country = response.data.sys.country;
   let countryDisplay = document.querySelector("#country");
   countryDisplay.innerText = `${country}`; 
@@ -23,7 +21,10 @@ let windSpeed = document.getElementById("wind");
 windSpeed.innerText = `Wind: ${wind} km/h`;
 let feels = Math.round(response.data.main.feels_like);
 let feelsLike= document.getElementById("feels-like");
-feelsLike.innerText = `Feels Like: ${feels}ºC`
+feelsLike.innerText = `Feels Like: ${feels}ºC`;
+let iconImage = document.querySelector("#weather-icon");
+iconImage.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@4x.png`);
+
     //axios.get(`${apiURL}&appid=${apiKey}`).then(displayTemperature);
 }
 
@@ -42,7 +43,7 @@ function searchLocation(event)
     typeLocationStore();
     let city = document.getElementById("location-input").value;
     let cityDisplay = document.querySelector("#current-location");
-    cityDisplay.innerText = city;
+    cityDisplay.innerText = city.toUpperCase();
 }
 
 let inputSubmission = document.getElementById("search-form");
