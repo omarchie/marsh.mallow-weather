@@ -167,6 +167,15 @@ h3 {
 .weekday-weather:hover{
     background-color: #f9ffbc;
 }
+.weather-forecast {
+        font-family: 'Fredoka', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+}
+.weather-forecast-temp-max {
+    font-weight:500;
+}
 .clouds {
 text-transform: capitalize;
 
