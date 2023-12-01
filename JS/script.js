@@ -28,7 +28,7 @@ function displayTemperature(response)
     windSpeed.innerText = `Wind: ${wind} mph`;
     let feels = Math.round(response.data.main.feels_like);
     let feelsLike= document.getElementById("feels-like");
-    feelsLike.innerText = `Feels Like: ${feels}ºC`;
+    feelsLike.innerText = `Feels Like: ${feels}ºF`;
     let iconImage = document.querySelector("#weather-icon");
     iconImage.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@4x.png`);
     //let lat = response.data.coord.lat;
